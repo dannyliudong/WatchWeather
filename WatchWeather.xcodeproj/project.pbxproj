@@ -24,6 +24,7 @@
 		A0D17BA81B99C0C1000A0BB5 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17BA71B99C0C1000A0BB5 /* GlanceController.swift */; };
 		A0D17BAA1B99C0C1000A0BB5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17BA91B99C0C1000A0BB5 /* ComplicationController.swift */; };
 		A0D17BAC1B99C0C1000A0BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D17BAB1B99C0C1000A0BB5 /* Assets.xcassets */; };
+		A0D17BC21B99C55C000A0BB5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17BC11B99C55C000A0BB5 /* WeatherViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		A0D17BA91B99C0C1000A0BB5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		A0D17BAB1B99C0C1000A0BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D17BAD1B99C0C1000A0BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D17BC11B99C55C000A0BB5 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				A0D17B661B99C0C0000A0BB5 /* AppDelegate.swift */,
 				A0D17B681B99C0C0000A0BB5 /* ViewController.swift */,
 				A0D17B6A1B99C0C0000A0BB5 /* Main.storyboard */,
+				A0D17BC11B99C55C000A0BB5 /* WeatherViewController.swift */,
 				A0D17B6D1B99C0C0000A0BB5 /* Assets.xcassets */,
 				A0D17B6F1B99C0C0000A0BB5 /* LaunchScreen.storyboard */,
 				A0D17B721B99C0C0000A0BB5 /* Info.plist */,
@@ -423,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D17B691B99C0C0000A0BB5 /* ViewController.swift in Sources */,
+				A0D17BC21B99C55C000A0BB5 /* WeatherViewController.swift in Sources */,
 				A0D17B671B99C0C0000A0BB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
