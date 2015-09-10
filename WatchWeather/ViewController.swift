@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WatchWeatherKit
 
 class ViewController: UIPageViewController {
 
@@ -26,7 +27,7 @@ class ViewController: UIPageViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func weatherViewControllerForDay(day: WeatherViewController.Day) -> UIViewController {
+    func weatherViewControllerForDay(day: Day) -> UIViewController {
         let vc = storyboard?.instantiateViewControllerWithIdentifier("WeatherViewController") as! WeatherViewController
         let nav = UINavigationController(rootViewController: vc)
         vc.day = day
@@ -51,7 +52,7 @@ extension ViewController: UIPageViewControllerDataSource {
             return nil
         }
         
-        guard let earlierDay = WeatherViewController.Day(rawValue: day.rawValue - 1) else {
+        guard let earlierDay = Day(rawValue: day.rawValue - 1) else {
             return nil
         }
         
@@ -70,7 +71,7 @@ extension ViewController: UIPageViewControllerDataSource {
             return nil
         }
         
-        guard let laterDay = WeatherViewController.Day(rawValue: day.rawValue + 1) else {
+        guard let laterDay = Day(rawValue: day.rawValue + 1) else {
             return nil
         }
         
